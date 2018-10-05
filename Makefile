@@ -1,5 +1,5 @@
 run:bunny
 	./bunny
 bunny:prog.c
-	gcc prog.c -o bunny
+	gcc -std=c11 prog.c -o bunny
 build:bunny
